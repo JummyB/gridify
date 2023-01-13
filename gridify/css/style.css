@@ -1,0 +1,37 @@
+body{
+	background: #222;
+}
+.card{
+	width: 25%;
+	padding: 20px;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-color: black;
+	color: #fff;
+	position: relative;
+	float: left;
+	font-family: poppins, sans-serif;
+	border-radius: 10px;
+	box-shadow: 8px 8px 24px rgba(0, 0, 0, .5);
+	transition: 1s;
+	text-align: center;
+}
+.down{
+	margin-bottom: 5%;
+}
+.px-12{
+	font-size: 12px;
+}
+.circle{
+	width: 20px;
+	height: 20px;
+	color: #555;
+	margin-left: 45%;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.card:hover{
+	background: #fff;
+	color: #222;
+}
